@@ -143,6 +143,8 @@ header .content .countdown {
     justify-content: center;
     align-items: center;
     background: transparent;
+    margin-top: 80px;
+    z-index: 1;
 }
 
 .love > span {

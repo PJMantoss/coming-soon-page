@@ -163,3 +163,13 @@ header .content .countdown {
     text-decoration: none;
     color: yellow;
 }
+
+@media (max-width: 960px){
+    header {
+        padding-top: 80px;
+    }
+
+    .love {
+        margin: auto;
+    }
+}

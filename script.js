@@ -25,5 +25,9 @@ const tick = () => {
         // Algorithm to calculate minutes
         let mins = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
         if (mins < 10){mins = "0" + mins};
+
+        // Algorithm to calc seconds
+        let sec = Math.floor((t % (1000 * 60)) / (1000));
+        if (sec < 10){sec = "0" + sec};
     }
 }

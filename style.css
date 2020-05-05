@@ -21,4 +21,18 @@ header {
     height: 100vh;
     margin: auto;
     background: url(bgpic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header:after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background-color: rgba(34, 34, 34, 0.5);
 }

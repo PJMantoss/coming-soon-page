@@ -27,7 +27,12 @@ const tick = () => {
         if (mins < 10){mins = "0" + mins};
 
         // Algorithm to calc seconds
-        let sec = Math.floor((t % (1000 * 60)) / (1000));
-        if (sec < 10){sec = "0" + sec};
+        let secs = Math.floor((t % (1000 * 60)) / 1000);
+        if (secs < 10){secs = "0" + secs};
+
+        // Create Time String
+        let time = `${days} : ${hours} : ${mins} : ${secs}`;
+
+        document.querySelector('.countdown').innerText = time;
     }
 }

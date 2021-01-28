@@ -1,5 +1,5 @@
 //Set up End date for countdown (getTime === Time in milli seconds)
-let launchDate = new Date("July 31, 2020 12:00:00").getTime();
+let launchDate = new Date(", 2020 12:00:00").getTime();
 
 const tick = () => {
     //Get current time
